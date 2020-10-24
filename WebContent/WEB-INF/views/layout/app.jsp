@@ -10,6 +10,8 @@
         <div id="wrapper">
             <div id="header">
                 <h1>日報管理システム</h1>
+                <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
+                <link rel="stylesheet" href="<c:url value='/css/style.css' />">
             </div>
             <div id="content">
                 ${param.content}
